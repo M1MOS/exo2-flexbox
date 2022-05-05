@@ -2,65 +2,31 @@
     margin: 0;
 }
 
-body{
-    margin-top: 10px;
-    padding: 0;
+html, body{
+    margin: 0;
     overflow: hidden;
-    background-color: yellow;
+    height: 100%;
 }
 
 .flex-container{
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     height: 100vh;
-    gap: 10px;
-    margin: 0 10px;
 }
 
-.flex1{
+.flex{
     display: flex;
+    flex: 1;
     justify-content: center;
-    background-color: orangered;
     padding: 40px;
     justify-content: space-evenly;
-    margin: 0px 10px;
 }
 
-.flex2{
-    display: flex;
-    justify-content: space-evenly;
 
-    
-}
-.flex-item2{
+.flex-item{
+    flex: 1;
     background-color: orangered;
-    margin: 20px;
-    padding: 15px;
-}
-
-.flex3{
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-.flex-item3{
-    margin: 20px;
-    padding: 15px;
-    gap: 10px;
-    height: 150px;
-    width: 150px;
-    background-color: orangered;
-}
-.flex12{
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-.flex-item4{
-    margin: 20px;
-    padding: 15px;
-    gap: 10px;
-    height: 150px;
-    width: 150px;
-    background-color: orangered;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
 }
