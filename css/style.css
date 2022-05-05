@@ -17,5 +17,11 @@ body{
 }
 
 .flex-items1{
+    display: flex;
     background-color: orangered;
+    margin: 10px;
+    padding: 40px;
+}
+.n12{
+    display: flex;
 }
