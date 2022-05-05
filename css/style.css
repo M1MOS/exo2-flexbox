@@ -3,25 +3,64 @@
 }
 
 body{
+    margin-top: 10px;
     padding: 0;
     overflow: hidden;
+    background-color: yellow;
 }
 
 .flex-container{
     display: flex;
-    flex-flow: column wrap;
-    border: 1px solid black;
+    flex-flow: column;
     height: 100vh;
     gap: 10px;
     margin: 0 10px;
 }
 
-.flex-items1{
+.flex1{
     display: flex;
+    justify-content: center;
     background-color: orangered;
-    margin: 10px;
     padding: 40px;
+    justify-content: space-evenly;
+    margin: 0px 10px;
 }
-.n12{
+
+.flex2{
     display: flex;
+    justify-content: space-evenly;
+
+    
+}
+.flex-item2{
+    background-color: orangered;
+    margin: 20px;
+    padding: 15px;
+}
+
+.flex3{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.flex-item3{
+    margin: 20px;
+    padding: 15px;
+    gap: 10px;
+    height: 150px;
+    width: 150px;
+    background-color: orangered;
+}
+.flex12{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.flex-item4{
+    margin: 20px;
+    padding: 15px;
+    gap: 10px;
+    height: 150px;
+    width: 150px;
+    background-color: orangered;
 }
